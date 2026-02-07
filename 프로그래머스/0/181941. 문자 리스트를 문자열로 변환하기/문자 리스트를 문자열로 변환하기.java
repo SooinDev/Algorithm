@@ -1,0 +1,20 @@
+import java.util.*;
+
+public class Solution {
+    public String solution(String[] arr) {
+        String answer = "";
+
+        for (int i = 0; i < arr.length; i++) {
+            answer += arr[i];
+        }
+
+        System.out.println(answer);
+        return answer;
+    }
+
+    public static void main(String[] args) {
+        Solution sol = new Solution();
+        String[] arr = {"a", "b", "c"};
+        sol.solution(arr);
+    }
+}
