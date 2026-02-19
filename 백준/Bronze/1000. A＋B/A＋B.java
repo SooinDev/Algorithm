@@ -1,7 +1,5 @@
-// A+B
-
-import java.util.*;
 import java.io.*;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) throws IOException {
@@ -13,7 +11,9 @@ public class Main {
         int b = Integer.parseInt(st.nextToken());
 
         sb.append(a + b);
-        
+
         System.out.print(sb);
+
+        br.close();
     }
 }
